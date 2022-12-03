@@ -1,0 +1,587 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+
+
+
+/*********************************** Header Section stars here ***********************************/
+
+
+header .navbar{
+    width: 100%;
+    background-color:  #0A2463;
+    font-size: 0.9rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+header .navbar .navbar-nav li{
+    padding-left: 12px;
+    margin: auto;
+}
+header .navbar .navbar-nav .btn{
+    padding: 8px;
+    background-color: #fdca40;
+    color: #0A2463;
+    font-weight: 700;
+    border: 1px solid #0A2463;
+}
+header .navbar .navbar-nav .btn:hover{
+    background-color: white;
+    color: #fdca40;
+}
+
+header .navbar .dropdown .dropdown-menu{
+    background-color: rgba(253, 202, 64, 0.9);
+}
+
+header .navbar .dropdown .dropdown-menu a{
+    color: white;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.13);
+
+}
+
+header .navbar .dropdown .dropdown-menu a:hover{
+    background-color: rgba(255, 255, 255, 0.12);
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+
+ }
+/*********************************** Header Section ends here ***********************************/
+
+/*********************************** Section Header class css starts here ***********************************/
+.section-header{
+    text-align: center;
+}
+.section-header h3 {
+    font-size: clamp(1rem, 1.5vw + 1rem, 2rem);
+    font-weight: 700;
+
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+
+.section-header p {
+    font-size: clamp(1rem, 1.2vw, 1.5rem);
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 26px;
+    color: #333;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*********************************** Section Header class css ends here ***********************************/
+
+/*********************************** Banner Section stars here ***********************************/
+
+.banner-section{
+
+    width: 100%;
+
+}
+.banner-section .banner-inner{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: 0px 85px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #0A2463;
+    box-shadow:inset 0 0 0 2000px #0a2563d8;
+
+}
+[data-action="stop"] {
+    display: none;
+}
+
+.banner-section .banner-inner h1{
+
+    padding-top: 250px;
+
+    font-size: clamp(0.9rem, 2vw + 1rem, 3rem);
+
+}
+
+.banner-section .banner-inner h4{
+
+    padding-top: 15px;
+    font-size: clamp(.8rem, 1vw, 1.3rem);
+
+}
+
+
+.banner-section .banner-inner .btn-one {
+    font-weight: 500;
+    letter-spacing: .2rem;
+    margin-top: 50px;
+    color: white;
+    transition: all 0.3s;
+    position: relative;
+  }
+.banner-section .banner-inner .btn-one span {
+    transition: all 0.3s;
+  }
+.banner-section .banner-inner .btn-one::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border-top-width: 1.5px;
+    border-bottom-width: 1.5px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: rgba(255,255,255,0.5);
+    border-bottom-color: rgba(255,255,255,0.5);
+    transform: scale(0.1, 1);
+  }
+.banner-section .banner-inner .btn-one:hover span {
+    letter-spacing: 2px;
+  }
+.banner-section .banner-inner .btn-one:hover::before {
+    opacity: .8;
+    transform: scale(1, 1);
+  }
+.banner-section .banner-inner .btn-one::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.3s;
+    background-color: rgba(255,255,255,0.1);
+  }
+  .banner-section .banner-inner .btn-one:hover::after {
+    opacity: 0;
+    transform: scale(0.1, 1);
+  }
+
+/*********************************** Banner Section ends here ***********************************/
+
+
+/*********************************** about Section starts here ***********************************/
+
+#about {
+    background: url("../image/bg/world.jpg") center top no-repeat fixed;
+    background-size: cover;
+    padding: 100px 0 80px 0;
+    box-shadow:inset 0 0 0 2000px #fdcb40e3;
+
+}
+
+
+
+#about .about-col {
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+    margin-bottom: 20px;
+}
+
+#about .about-col .img {
+    position: relative;
+}
+
+#about .about-col .img img {
+    border-radius: 4px 4px 0 0;
+}
+
+#about .about-col:hover i {
+    color: var(--color-primary);
+}
+
+#about .about-col h2 {
+    color: var(--color-black);
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 0;
+    margin: 40px 0 12px 0;
+    text-transform: uppercase;
+}
+
+#about .about-col h2 a {
+    color: black;
+}
+
+#about .about-col h2 a:hover {
+    color: #0A2463;
+}
+
+#about .about-col p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #333;
+    margin-bottom: 0;
+    padding: 0 20px 20px 20px;
+}
+
+
+/*********************************** about Section ends here ***********************************/
+
+
+
+/*********************************** services Section Starts here ***********************************/
+
+
+#services {
+    background: white;
+    background-size: cover;
+    padding: 100px 0 80px 0;
+}
+
+#services .box {
+    margin: 30px 0px;
+    box-shadow: 0px 0px 10px rgba(73, 78, 92, 0.15);
+    padding: 40px 10px;
+    -webkit-transition: -webkit-transform .3s;
+    transition: -webkit-transform .3s;
+    transition: transform .3s;
+    transition: transform .3s, -webkit-transform .3s;
+}
+
+
+#services .box:hover {
+    -webkit-transform: translateY(1.5rem) scale(1.03);
+    transform: translateY(1.5rem) scale(1.03);
+
+  }
+
+#services .icon {
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    fill: #0A2463;
+}
+
+#services .icon .svg {
+    height: 3rem;
+    width: 3rem;
+    transition: 0.3s;
+    fill: #0A2463;
+}
+
+#services .title {
+    margin-left: 60px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #0A2463;
+}
+
+#services .title a {
+    color: #0A2463;
+}
+
+#services .box:hover .title a {
+    color: #0A2463;
+}
+
+#services .description {
+    font-size: 14px;
+    margin-left: 60px;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+
+/*********************************** services Section ends here ***********************************/
+
+
+
+/*********************************** pricing Section Starts here ***********************************/
+
+#pricing {
+    padding: 100px 0;
+    background: #F7F7F7;
+}
+
+#pricing .pricing-box {
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
+    padding: 35px 0px;
+    border-radius: 8px;
+    margin: 30px 0px;
+    text-align: left;
+    background: white;
+}
+
+#pricing .pricing-box h3 {
+    margin: -35px 0px -15px 0px;
+    padding: 20px 15px;
+    right: 10px;
+    background: #0A2463;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#pricing .pricing-box .cur {
+    display: inline-flex;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#pricing .pricing-box .cur span {
+    font-size: 18px;
+    margin: 0 0px 0px 40px;
+}
+
+#pricing .pricing-box .cur h2 {
+    font-size: 34px;
+    font-weight: 600;
+}
+
+#pricing .pricing-box .cur h6 {
+    margin-top: 17px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+#pricing .pricing-box .price-list {
+    text-align: center;
+    margin: 0;
+}
+
+#pricing .pricing-box .price-list .list-unstyled {
+    padding: 5px 0;
+    list-style: none;
+    color: black;
+    text-align: left;
+    line-height: 20px;
+}
+
+#pricing .pricing-box .price-list .list-unstyled .list-item {
+    padding: 10px 0px 10px 30px;
+    position: relative;
+    margin: 0px 0px;
+}
+
+#pricing .pricing-box .price-list .list-unstyled .list-item i {
+    color: #0A2463;
+    font-size: 24px;
+    position: absolute;
+    left: 0;
+    top: 6px;
+}
+
+#pricing .pricing-box .pricing-button {
+    text-align: center;
+}
+
+#pricing .pricing-box .pricing-button .btn {
+    background: #0A2463;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    font-weight: 400;
+    letter-spacing: 1px;
+    border: 1px solid #0A2463;
+}
+
+#pricing .pricing-box .pricing-button .btn:hover {
+    color: #0A2463;
+    background: white;
+}
+/*********************************** pricing Section ends here ***********************************/
+
+/*********************************** faq Section Starts here ***********************************/
+
+#faq {
+    padding: 60px 0px;
+    overflow: hidden;
+    background: white;
+}
+
+#faq #faq-list {
+    padding: 0;
+    list-style: none;
+}
+
+#faq #faq-list li {
+    padding: 10px 20px;
+    margin: 20px 0;
+    background: white;
+    box-shadow: 0px 0px 4px rgba(127, 137, 161, 0.25);
+}
+
+#faq #faq-list a {
+    padding: 18px 0;
+    display: block;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 300;
+    padding-right: 20px;
+    color: #0A2463;
+}
+
+#faq #faq-list i {
+    font-size: 24px;
+    position: absolute;
+    right: 0;
+    top: 16px;
+}
+
+#faq #faq-list p {
+    margin-bottom: 20px;
+}
+
+#faq #faq-list a.collapse {
+    color: #0A2463;
+}
+
+#faq #faq-list a.collapsed {
+    color: #000;
+}
+
+#faq #faq-list a.collapsed i::after {
+    content: "" !important;
+}
+
+/*********************************** faq Section ends here ***********************************/
+
+
+/*********************************** contactus Section Starts here **********************************/
+
+/*********************************** contactus Section ends here ***********************************/
+
+
+
+
+/*********************************** Footer Section Starts here ***********************************/
+
+.footer-59391 {
+    border-top: 1px solid #efefef;
+    background-color: #0A2463;
+    font-family: "Poppins", sans-serif;
+    padding: 4rem 0; }
+    .footer-59391 .site-logo a {
+      font-size: 30px;
+      color: white;
+      font-weight: 400;
+      letter-spacing: 1px;}
+    .footer-59391 .nav-links li {
+      display: inline-block; }
+      .footer-59391 .nav-links li a {
+        color: white;
+        padding: 10px; }
+        .footer-59391 .nav-links li a:hover {
+          color: #0A2463; }
+    .footer-59391 .nav-links.nav-left li:first-child {
+      padding-left: 0; }
+    .footer-59391 .nav-links.nav-right li:last-child {
+      padding-right: 0; }
+    .footer-59391 .copyright {
+      border-top: 0.8px solid #e7e7e7;
+      padding-top: 50px;
+      text-align: center;
+      color: white; }
+    .footer-59391 .subscribe .form-group {
+      margin-bottom: 0;
+      padding-bottom: 0;
+      position: relative; }
+      .footer-59391 .subscribe .form-group input[type="email"] {
+        height: 45px;
+        border: none;
+        background: #e6e6e6; }
+        .footer-59391 .subscribe .form-group input[type="email"]:focus, .footer-59391 .subscribe .form-group input[type="email"]:active {
+          outline: none;
+          -webkit-box-shadow: none;
+          box-shadow: none; }
+        .footer-59391 .subscribe .form-group input[type="email"]::-webkit-input-placeholder {
+          color: #b3b3b3;
+          font-size: 14px; }
+        .footer-59391 .subscribe .form-group input[type="email"]::-moz-placeholder {
+          color: #b3b3b3;
+          font-size: 14px; }
+        .footer-59391 .subscribe .form-group input[type="email"]:-ms-input-placeholder {
+          color: #b3b3b3;
+          font-size: 14px; }
+        .footer-59391 .subscribe .form-group input[type="email"]:-moz-placeholder {
+          color: #b3b3b3;
+          font-size: 14px; }
+      .footer-59391 .subscribe .form-group button {
+        position: absolute;
+        border: none;
+        background: none;
+        font-size: 1.5rem;
+        color: #0A2463;
+        -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        transform: rotate(180deg);
+        top: .5rem;
+        right: .3rem;
+        line-height: 0;
+        margin-top: 4px;
+    }
+        .footer-59391 .subscribe .form-group button:focus, .footer-59391 .subscribe .form-group button:active {
+          outline: none; }
+
+      .footer-59391 .social li a i{
+
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+
+            background-color: #fdca40;
+            color: #0A2463;
+     }
+
+        .footer-59391 .social li a:hover {
+          color: #0A2463;
+        }
+
+
+
+    .footer-59391 .nav-links li a{
+            color: white;
+
+        }
+        .footer-59391 .nav-links li a:hover{
+            color: #fdca40;
+
+        }
+
+/*********************************** Footer Section ends here ***********************************/

@@ -1,0 +1,141 @@
+
+/************************* invest Section starts here *************************/
+.invest-section{
+    width: 100%;
+    padding-top: 50px;
+}
+
+.invest-section .invest-section-inner{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+/************************* invest Section starts here *************************/
+
+
+
+/*********************************** pricing Section Starts here ***********************************/
+
+#pricing {
+    padding: 25px 0;
+    background: white;
+}
+
+#pricing .pricing-box {
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
+    padding: 35px 0px;
+    border-radius: 8px;
+    margin: 30px 0px;
+    text-align: left;
+    background: white;
+}
+
+#pricing .pricing-box h3 {
+    margin: -35px 0px -15px 0px;
+    padding: 20px 15px;
+    right: 10px;
+    background: #0A2463;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#pricing .pricing-box .cur {
+    display: inline-flex;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#pricing .pricing-box .cur span {
+    font-size: 18px;
+    margin: 0 0px 0px 40px;
+}
+
+#pricing .pricing-box .cur h2 {
+    font-size: 34px;
+    font-weight: 600;
+}
+
+#pricing .pricing-box .cur h6 {
+    margin-top: 17px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+#pricing .pricing-box .price-list {
+    text-align: center;
+    margin: 0;
+}
+
+#pricing .pricing-box .price-list .list-unstyled {
+    padding: 5px 0;
+    list-style: none;
+    color: black;
+    text-align: left;
+    line-height: 20px;
+}
+
+#pricing .pricing-box .price-list .list-unstyled .list-item {
+    padding: 10px 0px 10px 30px;
+    position: relative;
+    margin: 0px 0px;
+}
+
+#pricing .pricing-box .price-list .list-unstyled .list-item i {
+    color: #0A2463;
+    font-size: 24px;
+    position: absolute;
+    left: 0;
+    top: 6px;
+}
+
+#pricing .pricing-box .pricing-button {
+    text-align: center;
+}
+
+#pricing .pricing-box .pricing-button .btn {
+    background: #0A2463;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    font-weight: 400;
+    letter-spacing: 1px;
+    border: 1px solid #0A2463;
+}
+
+#pricing .pricing-box .pricing-button .btn:hover {
+    color: #0A2463;
+    background: white;
+}
+/*********************************** pricing Section ends here ***********************************/
+
+/*********************************** Section Header class css starts here ***********************************/
+.section-header{
+    text-align: center;
+}
+.section-header h4 {
+    font-size: clamp(1rem, 1.5vw + 1rem, 1.5rem);
+    font-weight: 700;
+
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+
+.section-header p {
+    font-size: clamp(1rem, 1.2vw, 1.5rem);
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 26px;
+    color: #333;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*********************************** Section Header class css ends here ***********************************/

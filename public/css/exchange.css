@@ -1,0 +1,193 @@
+
+/*********************************** exchange Section stars here ***********************************/
+.exchange-section{
+    width: 100%;
+    padding-top: 40px;
+
+}
+.exchange-section .exchange-section-inner{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;  /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+
+    justify-content: center;
+    align-items: center;
+}
+.exchange-section h2{
+    letter-spacing: 1.5px;
+    font-weight: 700;
+}
+
+
+.exchange-section  h3{
+    color: #0A2463;
+}
+.exchange-section .balance-wrapper{
+    text-align: center;
+    border: 1px solid #acacac;
+    padding: 30px 50px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(73, 78, 92, 0.171);
+    transition: transform .2s;
+}
+
+.exchange-section .balance-wrapper:hover{
+    transform: scale(1.1);
+}
+
+
+
+.exchange-section .main-exhange{
+    padding-top: 80px;
+    text-align: center;
+}
+
+.exchange-section  .main-exhange .btn {
+    z-index: 1;
+    letter-spacing: 1.2px;
+    position: relative;
+    font-size: inherit;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: white;
+    padding: 0.5em 1.5em;
+    border: 1px solid #0A2463;
+    background-color: #0A2463;
+    overflow: hidden;
+    transition: color 0.4s ease-in-out;
+  }
+
+
+  .exchange-section .main-exhange .btn::before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: white;
+    transform-origin: center;
+    transform: translate3d(-50%, -50%, 0) scale3d(0, 0, 0);
+    transition: transform 0.45s ease-in-out;
+  }
+
+
+.exchange-section .main-exhange .btn:hover {
+    cursor: pointer;
+    color: #161616;
+  }
+
+
+.exchange-section .main-exhange .btn:hover::before {
+    transform: translate3d(-50%, -50%, 0) scale3d(15, 15, 15);
+  }
+
+/*********************************** exchange Section ends here ***********************************/
+
+/************************* balancetransfer Section starts here *************************/
+
+.exchange-section .main-exhange  h4{
+    font-size: clamp(1rem, 2vw, 2rem);
+    line-height: 1.5rem;
+}
+.exchange-section .main-exhange  h4 span{
+    color: #0A2463;
+    font-weight: 700;
+ }
+
+.exchange-section .main-exhange  .balancetransfer-inner{
+    margin-top: 4vh;
+    width: 100%;
+    text-align: center;
+}
+.exchange-section .main-exhange  .balancetransfer-inner .form-group{
+    text-align: left;
+    color: black;
+}
+.exchange-section .main-exhange  .balancetransfer-inner .form-group label{
+    color: #666668;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+
+
+.exchange-section .main-exhange  .balancetransfer-inner .btn{
+    background-color: #0A2463;
+    border: 1px solid #0A2463;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.exchange-section .main-exhange  .balancetransfer-inner .btn:hover{
+    background-color: transparent;
+    color: #0A2463;
+}
+
+/************************* transferhistory Section starts here *************************/
+.exchange-section  .transfer-history-header{
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.exchange-section .transfer-history{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+.exchange-section .transfer-history .table thead{
+    background-color: #0A2463;
+    color: white;
+}
+.exchange-section .transfer-history .table thead th{
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+}
+
+/************************* transferhistory Section ends here *************************/
+
+/************************* scrollbar Section starts here *************************/
+#scrollbar::-webkit-scrollbar-track
+{
+    box-shadow: inset 0 0 6px rgb(51, 97, 255,.3);
+    background-color: #F5F5F5;
+}
+
+ #scrollbar::-webkit-scrollbar
+{
+    width: 5px;
+    background-color: #F5F5F5;
+}
+
+ #scrollbar::-webkit-scrollbar-thumb
+{
+    background-color: #0A2463;
+}
+/************************* scrollbar Section ends here *************************/
+
+
+/************************* widget Section starts here *************************/
+.widget{
+    width: 100%;
+    padding: 10px;
+    margin: 40px 0px;
+}
+.widget-inner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 10px 2px;
+}
+
+/************************* widget Section ends here *************************/

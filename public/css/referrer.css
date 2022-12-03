@@ -1,0 +1,116 @@
+/*********************************** referrer Section Starts here ***********************************/
+.referrer-section{
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.referrer-section .referrer-section-inner{
+
+    width: 90%;
+    text-align: center;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    background-color: white;
+    margin-left: 1rem;
+    box-shadow: 0 30px 40px rgba(0,0,0,.1);
+}
+.referrer-section .referrer-section-inner p{
+    padding-top: 5px;
+    margin-bottom:-10px;
+    font-size: clamp(0.6rem, 1.2vw, 1.5rem);
+}
+
+
+.referrer-section .referrer-section-inner a{
+    padding-bottom: 5px;
+    padding-right:5px;
+    padding-left:5px;
+    padding-top: 5px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border: 1px solid #0A2463;
+    z-index: 1;
+    font-size: inherit;
+    font-family: inherit;
+    color: white;
+    padding: 0.5em 1em;
+    outline: none;
+    border: none;
+    background-color: hsl(236, 32%, 26%);
+    box-shadow: 0 30px 40px rgba(0,0,0,.1);
+  }
+
+.referrer-section .referrer-section-inner a:hover {
+    cursor: pointer;
+    animation: jelly 0.5s;
+  }
+
+  @keyframes jelly {
+    0%,
+    100% {
+      transform: scale(1, 1);
+    }
+    25% {
+      transform: scale(0.9, 1.1);
+    }
+    50% {
+      transform: scale(1.1, 0.9);
+    }
+    75% {
+      transform: scale(0.95, 1.05);
+    }
+  }
+
+
+/************************************ referrer Section ends here ************************************/
+
+
+
+/*********************************** referrer-history Section starts here ***********************************/
+
+.referrer-section .reffer-history{
+    padding: 5px;
+    width: 100%;
+    height: 90vh;
+    text-align: center;
+    overflow: auto;
+}
+.referrer-section  h2{
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.referrer-section .reffer-history .table thead{
+    background-color: #0A2463;
+    color: white;
+    letter-spacing: 0.1rem;
+    font-weight: 300;
+
+}
+.referrer-section .reffer-history thead th{
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+}
+/************************************ referrer-history Section ends here ************************************/
+/************************* scrollbar Section starts here *************************/
+#scrollbar::-webkit-scrollbar-track
+{
+    box-shadow: inset 0 0 6px rgb(51, 97, 255,.3);
+    background-color: #F5F5F5;
+}
+
+ #scrollbar::-webkit-scrollbar
+{
+    width: 5px;
+    background-color: #F5F5F5;
+}
+
+ #scrollbar::-webkit-scrollbar-thumb
+{
+    background-color: #0A2463;
+}
+/************************* scrollbar Section ends here *************************/

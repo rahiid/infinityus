@@ -1,0 +1,166 @@
+/************************* deposit Section starts here *************************/
+.diposit-section{
+    width: 100%;
+    padding-top: 50px;
+}
+
+.diposit-section .diposit-section-inner{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+ 
+.diposit-section .diposit-section-inner .addmoney-inner{
+    display: inline;
+    width: 90%;
+    background-color: white;
+}
+
+
+.diposit-section .diposit-section-inner .addmoney-inner img{
+    width: clamp(25px, 5vw, 45px);
+    height: 35px;
+    padding: .1rem;
+    margin-left: 20px;
+    border-radius: 5px;
+    background-color: white;
+}
+.diposit-section .diposit-section-inner .addmoney-inner [type=radio] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+
+}
+
+.diposit-section .diposit-section-inner .addmoney-inner [type=radio] + img {
+    cursor: pointer;
+
+}
+
+.diposit-section .diposit-section-inner .addmoney-inner [type=radio]:checked + img {
+    outline: 2px solid #0A2463;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+
+.diposit-section .diposit-section-inner .addmoney-text h5{
+    padding-top: 10px;
+    font-size: clamp(0.8rem, 2vw, 1.5rem);
+    font-weight: 700;
+}
+.diposit-section .diposit-section-inner .addmoney-text p{
+    padding-top: 20px;
+    font-size: clamp(0.8rem, 1vw, 1.5rem);
+    line-height: 1.5rem;
+    padding-right: 10px;
+
+}
+.diposit-section .diposit-section-inner .addmoney-text p strong{
+
+    line-height: 1vh;
+
+}
+
+.diposit-section .diposit-section-inner .addmoney-items{
+    align-items: center;
+    text-align: center;
+}
+
+.diposit-section .diposit-section-inner .addmoney-items input{
+    text-indent: 1rem;
+
+}
+
+
+.diposit-section .diposit-section-inner .addmoney-items h6{
+    padding: 2vh 0vh;
+    font-size: clamp(0.8rem, 1vw, 1.5rem);
+}
+
+.diposit-section .diposit-section-inner .addmoney-items h6 span{
+   color: #0A2463;
+   font-weight: 700;
+}
+
+.diposit-section .diposit-section-inner .addmoney-items input{
+    background-color: white;
+    border: 1px solid #CED4DA;
+    border-radius: 5px;
+    height: 35px;
+    padding: 18px 0px;
+}
+.diposit-section .diposit-section-inner .addmoney-items label{
+    text-align: left;
+   color: #666668;
+    font-weight: 600;
+}
+.diposit-section .diposit-section-inner .addmoney-items .addmoney-selection{
+    justify-content: center;
+}
+
+.diposit-section .diposit-section-inner .addmoney-items .btn{
+    background-color: #0A2463;
+    border: 1px solid #0A2463;
+}
+
+.diposit-section .diposit-section-inner .addmoney-items .btn:hover{
+    background-color: white;
+    color: #0A2463;
+}
+
+
+.diposit-section .deposit-info{
+    width: 100%;
+    padding: 0px 5px 20px 5px;
+}
+.diposit-section .deposit-info h2{
+    text-align: center;
+    padding: 20px 0px;
+    text-transform: uppercase;
+}
+.diposit-section .deposit-info .card{
+    padding: 10px 0px;
+    background-color: #0A2463;
+    color: white;
+}
+.diposit-section .deposit-info .card ul{
+    list-style-type: none;
+}
+.diposit-section .deposit-info .card ul li{
+    line-height: 1.8rem;
+}
+.diposit-section .deposit-info .card ul li span{
+    float: right;
+    padding-right: 20px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: .5px;
+
+}
+
+.diposit-section .deposit-info .btn{
+    width: 200px;
+    font-size: small;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid white;
+    color: #0A2463;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+}
+.diposit-section .deposit-info .btn:hover{
+    background-color: #0A2463;
+    color: #ffffff;
+
+}
+/************************* deposit Section ends here *************************/
+
+

@@ -1,0 +1,59 @@
+
+
+
+/************************* deposit history Section starts here *************************/
+
+.diposit-section{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.diposit-section h2{
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.diposit-section .diposit-section-inner{
+    padding: 5px;
+    width: 100%;
+    height: 90vh;
+    overflow: auto;
+}
+
+
+.diposit-section .diposit-section-inner .table thead{
+    background-color: #0A2463;
+    color: white;
+
+}
+.diposit-section .diposit-section-inner thead th{
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+}
+/************************** deposit history Section ends here **************************/
+
+/************************* scrollbar Section starts here *************************/
+#scrollbar::-webkit-scrollbar-track
+{
+    box-shadow: inset 0 0 6px rgb(51, 97, 255,.3);
+    background-color: #F5F5F5;
+}
+
+ #scrollbar::-webkit-scrollbar
+{
+    width: 5px;
+    background-color: #F5F5F5;
+}
+
+ #scrollbar::-webkit-scrollbar-thumb
+{
+    background-color: #0A2463;
+}
+/************************* scrollbar Section ends here *************************/

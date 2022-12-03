@@ -1,0 +1,197 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+
+
+/*********************************** header Section stars here ***********************************/
+.header-section{
+    background-color: #0A2463;
+    padding: 12px 0px;
+}
+
+.header-section .nav span{
+    color: white;
+}
+.header-section .nav .navbar-right-content img{
+    height: 5vh;
+    width: clamp(10px, 70%, 30px);
+}
+
+.header-section .nav .navbar-right-content .btn{
+    background-color: white;
+    color: #0A2463;
+    border: 1px solid #0A2463;
+
+}
+
+.header-section .nav .username{
+    color: #0A2463;
+}
+@media only screen and (max-width : 550px) {
+    .header-section .nav .username{
+        display: none;
+    }
+}
+/*********************************** header Section stars here ***********************************/
+
+/*********************************** Sidebar Section stars here ***********************************/
+.Sidebar-section{
+   background-color: white;
+}
+
+.Sidebar-section .profile-userpic{
+    text-align: center;
+}
+.Sidebar-section .profile-userpic img{
+    height: 11vh;
+    width: clamp(50px, 70%, 90px);
+    margin-bottom: .5rem;
+}
+.Sidebar-section .profile-userpic h6{
+    display: none;
+}
+.Sidebar-section .profile-userpic p{
+
+    color: #0A2463;
+    font-weight:700;
+    font-size: clamp(0.8rem, 1.2vw, 1.5rem);
+
+}
+.Sidebar-section .sidebar-bottom{
+    text-align: center;
+}
+.Sidebar-section .sidebar-bottom .sidebar-items{
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: left;
+    padding-left: 50px;
+    margin-top: 20px;
+}
+.Sidebar-section .sidebar-bottom .sidebar-items .sidebar-links{
+    display: flex;
+
+    align-items: baseline;
+    width: 100%;
+}
+.Sidebar-section .sidebar-bottom .sidebar-items a{
+    color:black;
+}
+
+.Sidebar-section .sidebar-bottom .sidebar-items a h5{
+    font-size: clamp(.8rem, 1vw, 1rem);
+}
+
+.Sidebar-section .sidebar-bottom .sidebar-items i{
+    color:black;
+    margin-right: 0.7rem;
+    font-size: clamp(1rem, 2vw, 1rem);
+}
+
+
+.Sidebar-section .sidebar-bottom #u1{
+    padding-top: 5px;
+    background-color: #0A2463;
+
+}
+
+.Sidebar-section  .sidebar-bottom  #u1 a h5{
+    color: white;
+}
+.Sidebar-section  .sidebar-bottom #u1 i{
+    color: white;
+}
+.Sidebar-section .sidebar-bottom  .collapse{
+    background-color: rgba(238, 238, 238, 0.932);
+    padding: 0px;
+    text-align: left;
+}
+.Sidebar-section .sidebar-bottom .collapse {
+    list-style-type: none;
+    margin-left: 22px;
+}
+
+/*********************************** Sidebar Section stars here ***********************************/
+
+/*********************************** user Section stars here ***********************************/
+.user-section{
+    width: 100%;
+    padding-top: 40px;
+}
+.user-section .user-section-inner{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center;
+    padding: 10px;
+}
+.user-section .user-section-inner .card{
+    margin: 8px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(73, 78, 92, 0.171);
+    transition: transform .2s;
+}
+.user-section .user-section-inner .card:hover{
+    transform: scale(1.05);
+}
+
+
+.user-section .user-section-inner .card .img-wrp{
+    text-align: center;
+    padding-top: 20px;
+}
+.user-section .user-section-inner .card img{
+    width: 150px;
+    height: 120px;
+    place-content: center;
+}
+.user-section .user-section-inner .card .card-body h5{
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0A2463;
+}
+.user-section .user-section-inner .card .card-body p strong{
+    color: rgb(136, 136, 136);
+}
+/*********************************** user Section stars here ***********************************/
+/************************* widget Section starts here *************************/
+.widget{
+    width: 100%;
+    padding: 10px;
+    margin: 40px 0px;
+}
+.widget .widget-inner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.widget .widget-inner .tradingview-widget-container{
+    width: 100%;
+    padding: 10px 2px;
+}
+/************************* widget Section ends here *************************/
