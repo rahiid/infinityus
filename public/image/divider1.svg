@@ -1,8 +1,1 @@
-<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
-
- <g>
-  <title>Layer 1</title>
-  <rect stroke="#000" id="svg_8" height="4.78482" width="344.65406" y="297.60758" x="227.67298" stroke-width="0" fill="#ffffff"/>
-  <rect stroke-width="0" stroke="#000" id="svg_5" height="17.53846" width="179" y="291.23077" x="310.50001" fill="#0a2463"/>
- </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600"><g><title>Layer 1</title><rect id="svg_8" width="344.654" height="4.785" x="227.673" y="297.608" fill="#fff" stroke="#000" stroke-width="0"/><rect id="svg_5" width="179" height="17.538" x="310.5" y="291.231" fill="#0a2463" stroke="#000" stroke-width="0"/></g></svg>

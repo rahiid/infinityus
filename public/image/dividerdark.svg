@@ -1,7 +1,1 @@
-<svg width="1000" height="100" xmlns="http://www.w3.org/2000/svg">
- <g id="Layer_1">
-  <title>Layer 1</title>
-  <rect id="svg_3" height="14" width="1021" y="43" x="-10.5" stroke-width="0" stroke="#000" fill="#7f7f7f"/>
-  <rect stroke="#000" id="svg_2" height="60" width="393" y="20" x="303.5" stroke-width="0" fill="#0a2463"/>
- </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="100"><g id="Layer_1"><title>Layer 1</title><rect id="svg_3" width="1021" height="14" x="-10.5" y="43" fill="#7f7f7f" stroke="#000" stroke-width="0"/><rect id="svg_2" width="393" height="60" x="303.5" y="20" fill="#0a2463" stroke="#000" stroke-width="0"/></g></svg>
